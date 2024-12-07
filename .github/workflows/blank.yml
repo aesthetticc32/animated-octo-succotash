@@ -17,7 +17,7 @@ on:
 jobs:
   linux-x86:
     name: "Run on the fastest infrastructure"
-    runs-on: ghcr.io/cirruslabs/ubuntu-runner-amd64:22.04-md
+    runs-on: ghcr.io/cirruslabs/ubuntu-runner-amd64:22.04-lg
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
